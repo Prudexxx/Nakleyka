@@ -1,0 +1,86 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+/* Стиль вкладки */
+.tab {
+    overflow: hidden;
+    border: 3px solid #0c0c0c;
+    background-color: #f1f1f1;
+  }
+  
+  /* Стиль кнопок, которые используются для открытия содержимого вкладки */
+  .tab button {
+    background-color: inherit;
+    float: left;
+
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Изменение цвета фона кнопок при наведении курсора */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Создание активного/текущего класса связи вкладки */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Стиль содержимого вкладки */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #020202;
+    border-top: none;
+    
+  }
+
+  .tablinks{
+    display: block;
+    width:auto;
+  }
+
+  span{
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .nac2{
+    margin: auto 30px;
+  }
+
+  table, th, td {
+    width: 200%;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+.blok5{
+
+  display: flex ;
+}
+h1{
+  text-align: center;
+}
+
+.selected {
+  
+}
+
+.tablt{
+  width: 140px;
+  height: 10px;
+  margin-left:150px;
+}
+
+
